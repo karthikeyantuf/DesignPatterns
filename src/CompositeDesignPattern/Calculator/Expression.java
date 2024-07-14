@@ -40,7 +40,8 @@ public class Expression implements ArithmeticExpression{
             }
             default:
             {
-                System.out.print("Unsupported operation");
+                System.out.println("Unsupported operation");
+                System.out.println("Provide the supported version");
             }
         }
         return ans;
