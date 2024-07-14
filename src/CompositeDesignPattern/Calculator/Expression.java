@@ -30,6 +30,7 @@ public class Expression implements ArithmeticExpression{
             }
             case MULTIPLY:
             {
+                System.out.println("Inside the multiply operation");
                 ans = leftExpression.evaluate() * rightExpression.evaluate();
                 break;
             }
