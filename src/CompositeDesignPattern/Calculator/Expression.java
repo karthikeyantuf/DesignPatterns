@@ -35,6 +35,7 @@ public class Expression implements ArithmeticExpression{
             }
             case DIVIDE:
             {
+                System.out.println("Inside the divide case");
                 ans = leftExpression.evaluate() / rightExpression.evaluate();
                 break;
             }
